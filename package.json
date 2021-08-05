@@ -1,0 +1,29 @@
+{
+  "name": "gh-action-pr-title",
+  "version": "1.0.0",
+  "description": "Action that gets the title for the current pull request",
+  "main": "dist/main.js",
+  "scripts": {
+    "package": "npx ncc build src/main.js -o dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ramonsnir/gh-action-pr-title.git"
+  },
+  "keywords": [
+    "github",
+    "actions",
+    "pull request"
+  ],
+  "bugs": {
+    "url": "https://github.com/ramonsnir/gh-action-pr-title/issues"
+  },
+  "homepage": "https://github.com/ramonsnir/gh-action-pr-title#readme",
+  "author": "Ramon Snir <r@mon.dev>",
+  "license": "MIT",
+  "dependencies": {
+    "@actions/core": "^1.4.0",
+    "@actions/github": "^5.0.0",
+    "@zeit/ncc": "^0.22.3"
+  }
+}
